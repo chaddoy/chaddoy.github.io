@@ -153,7 +153,7 @@ header .dropdown-nav ul li a {
 }
 
 footer {
-	height           : 60px;
+	padding          : 60px;
 	background-color : #ccc;
 }
 
@@ -200,6 +200,10 @@ footer {
 	.content .thumbnails.visible-sm img {
 		width : 110px;
 	}
+
+	.visible {
+		display : block;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -241,6 +245,10 @@ footer {
 
 	.content .thumbnails.visible-sm img {
 		width : 150px;
+	}
+
+	.visible {
+		display : block;
 	}
 }
 
@@ -318,6 +326,10 @@ footer {
 
 	.hidden {
 		display : none;
+	}
+
+	.visible {
+		display : block;
 	}
 }
 
@@ -400,6 +412,10 @@ footer {
 	.visible-xs {
 		display : none;
 	}
+
+	.visible {
+		display : none;
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -478,6 +494,10 @@ footer {
 	}
 
 	.visible-xs {
+		display : none;
+	}
+
+	.visible {
 		display : none;
 	}
 }
