@@ -41,18 +41,18 @@ header .logo {
 	margin-top : 20px;
 }
 
-header .inline-nav {
+.inline-nav {
 	float  : right;
 	margin : 25px 0px;
 }
 
-header .inline-nav ul {
+.inline-nav ul {
 	margin          : 0;
 	padding         : 0;
 	list-style-type : none;
 }
 
-header .inline-nav ul li {
+.inline-nav ul li {
 	display        : inline-block;
 	vertical-align : top;
 	zoom           : 1; /* Fix for IE7 */
@@ -71,7 +71,7 @@ header .dropdown-nav {
 	position         : absolute;
 	z-index          : 10;
 	right            : 38px;
-	background-color : #444;
+	background-color : #005d98;
 	margin-top       : -16px;
 }
 
@@ -82,23 +82,19 @@ header .dropdown-nav ul {
 }
 
 header .dropdown-nav ul li {
-	border        : 1px solid;
-	padding       : 20px 80px 20px 20px;
+	border        : 1px solid #246e98;
+	padding       : 20px 110px 20px 20px;
 	border-bottom : none;
 }
 
 header .dropdown-nav ul li:hover {
-	background-color : #FFF;
-	color            : #444;
-	border-color     : #444;
-}
-
-header .dropdown-nav ul li:hover a {
-	color : #444;
+	background-color : #4697c6;
+	color            : #145d8d;
+	border-color     : #145d8d;
 }
 
 header .dropdown-nav ul li:last-child {
-	border-bottom : 1px solid;
+	border-bottom : 1px solid #145d8d;
 }
 
 header .dropdown-nav ul li a {
@@ -161,8 +157,19 @@ header .dropdown-nav ul li a {
 }
 
 footer {
-	padding          : 60px;
-	background-color : #ccc;
+	padding          : 30px;
+	background-color : #005d98;
+	color            : #eee;
+	font-size        : 14px;
+}
+
+footer p {
+	float : left;
+}
+
+footer img {
+	float : right;
+	width : 150px;
 }
 
 /* Responsive */
