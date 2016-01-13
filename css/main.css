@@ -161,9 +161,28 @@ header .dropdown-nav ul li a {
 }
 
 .content .aside-xs {
-	height           : 200px;
-	text-align       : center;
-	background-color : #ccc;
+	height     : 200px;
+	text-align : center;
+}
+
+.content .aside-xs .figure-container {
+	border-top  : 1px solid #ddd;
+	padding-top : 10px;
+	width       : 340px;
+	margin      : auto;
+}
+
+.content .aside-xs h3 {
+	text-align : left;
+}
+
+.content .aside-xs figure {
+	float  : left;
+	margin : 10px;
+}
+
+.content .aside-xs figcaption {
+	padding : 10px;
 }
 
 footer {
